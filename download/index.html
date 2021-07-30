@@ -22,6 +22,7 @@
       <ul>
         <li><a href="https://royparkour-admin-blog.theblog.me/"><font color="#000000">運営のゆったりブログ</font></a></li>
         <li><a href="https://photos.app.goo.gl/8okUsfmRQNPRiWev9"><font color="#000000">ROY Parkourアルバム</font></a></li>
+        <li><a href="https://rooyrooy123.github.io/ROYParkour/Admin/rule/index.html"><font color="#000000">運営規約</font></a></li>
       </ul>
     </div>
   <li>
@@ -142,11 +143,70 @@ li a {
 
 body {
   background-image: url("");
+  background-color: #e6ffff;
   background-size: cover;
   padding-top: 80px;
 }
-</style>
 
+
+
+
+.wrap {
+  margin: 2em 0;
+  padding: 0;
+  width:700px;
+}
+
+.wrap label {
+  display: block;
+  padding : 8px;
+  color: #fff;
+  font-weight: bold;
+  background: #0384fc;
+  cursor: pointer;
+}
+
+.wrap input[type="checkbox"] {
+  display: none;
+}
+
+.wrap .content {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+}
+
+.switch:checked + .content {
+  height: auto;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid black
+}
+
+
+
+
+.download a{
+     text-decoration:none;
+ }
+
+.clickdownload{
+color:#285EA0;
+text-align:center;
+padding:1px;
+margin-top:15px;
+border-radius: 50px;
+box-shadow:3px 3px 6px #b8b9be,-3px -3px 6px #fff;
+width:400px;
+}
+
+.bodybody{
+  padding-left:20px;
+}
+</style>
+<div class="bodybody">
 <h2>ダウンロードページ</h2>
 ROY Parkour で使用している(或いはしていた)ファイルの配布場所です。<br>
 以下にファイルの利用規約が記されています。これに同意した上でダウンロードしてください。<br>
@@ -154,18 +214,40 @@ ROY Parkour で使用している(或いはしていた)ファイルの配布場
 <br>
 <h3>ファイル利用規約</h3>
 2次配布は禁止です。<br>
-紹介する際はこのサイトのURLを記載してください。<br>
-基本的に改変は禁止です。ただし、不具合の修正や企画のために改変するのは許可します。<br>
+改変などの詳しい内容についてはファイル内に記載しておりますので必ずご確認ください。<br>
+ファイルを使用した時点でファイル内の注意事項を熟読したことになりますので必ずご確認ください。<br>
 これらのファイルによる損害などは保証しません。<br>
 導入の際は自己責任でお願いします<br>
-<br>
-<br>
-<div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333; border-radius: 10px;">
+上記のファイル利用規約はファイルをダウンロードした時点で熟読したことになります。<br><br>
+<div style="padding: 10px; margin-bottom: 10px; border: 5px double #ff7c73; border-radius: 1px;">
   <h3>ワールド配布</h3><br>
   <br>
 </div>
 <br>
-<div style="padding: 10px; margin-bottom: 10px; border: 5px double #333333; border-radius: 10px;">
-  <h3>Skript配布</h3><br>
-  <br>
+<div style="padding: 10px; margin-bottom: 10px; border: 5px double #02ed39; border-radius: 10px;">
+  <h3>Skript配布</h3>(Skript導入方法については<a href="https://w.atwiki.jp/skript/pages/17.html">こちらのページを</a>確認してください。)
+  <div class="wrap">
+    <label for="label1">旧BanSkript</label>
+    <input type="checkbox" id="label1" class="switch" />
+    <div class="content">
+      ROYParkourで使用していたBanSystemのSkriptです。<br>
+      違反ポイントが設定した数値を上回るとBanされるシステムです。
+      <section class="download">
+      <a href="https://rooyrooy123.github.io/ROYParkour/download/OP権限不正獲得防止.sk">
+      <div class="clickdownload">
+      クリックしてダウンロード|約3kb
+</div></div></div></a>
+  <div class="wrap">
+    <label for="label2">OP権限不正取得防止用Skript</label>
+    <input type="checkbox" id="label2" class="switch" />
+    <div class="content">
+      OP権限不正獲得を防止するものです。<br>
+      /opコマンドを実行した際に実行者に確認を行います。
+      <section class="download">
+      <a href="https://rooyrooy123.github.io/ROYParkour/download/ROYParkour旧BanSystem.sk">
+      <div class="clickdownload">
+      クリックしてダウンロード|約11kb
+</div></div></div></a>
+
+
 </div>
