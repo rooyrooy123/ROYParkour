@@ -1,1 +1,3 @@
 # ROYParkour
+旧ROYParkourwebページのリポジトリ
+現在作成中のwebページはほかのリポジトリにあります。
